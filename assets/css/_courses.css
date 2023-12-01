@@ -1,0 +1,102 @@
+/* start Education Courses section style */
+.section1-title {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section1-title span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.section1-title span::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: -70px;
+}
+.section1-title span::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+.card {
+    text-align: center;
+    box-shadow: 0px 0px 10px #00000057;
+    cursor: pointer;
+    border-radius: 4px;
+    transition:all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    border-radius: 14px;
+    transition: all 0.4s ease 0s;
+}
+
+.card .card-image {
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px 4px 14px 14px;
+    transition:all 0.4s ease-in-out;
+}
+
+.card img {
+    height: 200px;
+    margin-bottom: 12px;
+    border-radius: 4px 4px 14px 14px;
+    transition:all 0.4s ease-in-out;
+}
+
+.card .card-title {
+    background-color: orange;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.card p{
+    margin-top: 14px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: rgb(126 126 126);
+    padding: 0px 8px;
+}
+
+.card a:last-child {
+    color: #ff9400;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card a:last-child:hover {
+    color: rgba(255, 166, 0, 0.699);
+    transition: 0.2s;
+}
+
+.card:hover.card img {
+    border-radius: 14px 14px 14px 14px ;
+    transform: scale(1.2) rotate(5deg);
+    transition: all 0.4s ease 0s;
+}
+.card:hover .card-image {
+    border-radius: 14px;
+}
+
+.card .card-title:hover {
+    padding: 2px 16px;
+    transition: 0.3s;
+}
+
+/* start Education Courses section style */

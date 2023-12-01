@@ -1,0 +1,39 @@
+/* start contact section styles */
+.container-fluid-custom {
+    background-color: rgb(6, 0, 77);
+    color: #fff;
+    height: 40px;
+}
+
+.container-fluid-custom .contact {
+    margin-top: 5px;
+}
+
+.container-fluid-custom .contact span {
+    color: orange;
+    vertical-align: -9px;
+    padding-left: 15px;
+}
+
+.container-fluid-custom .contact span span {
+    color: #fff;
+    margin-left: -34px;
+    vertical-align: 6px;
+}
+
+.container-fluid-custom .social-media {
+    direction: ltr;
+}
+
+.container-fluid-custom .social-media a i {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: -12px;
+}
+
+.container-fluid-custom .social-media a i:hover {
+    color: orange;
+    transition: 0.5s;
+}
+/* end contact section styles */

@@ -1,0 +1,33 @@
+@import url(_contact.css);
+@import url(_nav.css);
+@import url(_header.css);
+@import url(_courses.css);
+@import url(_aboutus.css);
+@import url(_user-comments.css);
+@import url(_statistics.css);
+@import url(_article.css);
+@import url(_fa-questions.css);
+@import url(_connect-us.css);
+@import url(_footer.css);
+
+@font-face {
+    font-family: Yekan;
+    src: url('../fonts/Yekan/Yekan.eot');
+    src: url('../fonts/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Yekan/Yekan.woff') format('woff'),
+        url('../fonts/Yekan/Yekan.woff2') format('woff2'),
+        url('../fonts/Yekan/Yekan.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(../fonts/Vazir-Medium.eot) format(eot);
+    src: url(../fonts/Vazir-Medium.woff) format(woff);
+    src: url(../fonts/Vazir-Medium.woff2) format(woff2);
+}
+
+*,
+body {
+    font-family: Vazir;
+}

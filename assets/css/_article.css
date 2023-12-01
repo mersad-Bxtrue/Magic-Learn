@@ -1,0 +1,115 @@
+/* start article section style */
+.section4-title {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section4-title span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.section4-title span::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: -70px;
+}
+.section4-title span::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 134px;
+}
+
+.article {
+    /* min-height: 310px; */
+    min-height: auto;
+    box-shadow: 0px 0px 10px #a1a1a1;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+.article img {
+    height: 170px;
+}
+.article a h3 {
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+    font-weight: 100;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+.article-detail {
+    text-align: center;
+    padding: 10px;
+}
+.article .article-detail div {
+    display: inline;
+    padding: 15px 5px;
+}
+.article span {
+    font-size: 14px;
+    vertical-align: middle;
+    color: #8b8b8b;
+}
+.article .article-link {
+    display: block;
+    /* padding: 2px 4px;
+    margin: 20px 78px; */
+    padding-bottom: 2px;
+    margin: 15px 20px;
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+}
+.article .article-link span {
+    font-size: 24px;
+    color: blue;
+    transition: 0.4s ease-in-out;
+}
+
+.article a h3:hover {
+    color: orange;
+    transition: 0.s;
+}
+
+.article .article-link:hover {
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.article .article-link:hover.article-link span {
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.all-article {
+    text-align: center;
+    margin: 40px 0px;
+    /* display: block; */
+}
+.all-article .all-article-link span {
+    display: inline-block;
+    color: blue;
+    vertical-align: middle;
+    font-weight: normal;
+}
+.all-article .all-article-link {
+    transition: 0.2s ease-in-out;
+}
+.all-article .all-article-link:hover{
+    background-color: #cacaff;
+    border-radius: 6px;
+    padding: 3px 6px;
+    transition: 0.2s;
+}
+/* end article section style */

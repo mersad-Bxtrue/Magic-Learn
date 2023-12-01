@@ -1,0 +1,210 @@
+/* start connect us section style */
+.section6-title {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section6-title span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.section6-title span::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: -84px;
+}
+.section6-title span::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #ffe000;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    right: 162px;
+}
+
+.connect-us{
+    width: 450px;
+    padding: 40px;
+    background: rgb(251,249,63);
+    background: linear-gradient(180deg, rgba(251,249,63,0.8044467787114846) 0%, rgba(252,194,67,0.7960434173669468) 100%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    right: 50%;
+    transform: translate(50%);
+    border: 2px solid #ffe000;
+    box-shadow: 0px 0px 30px #ffe000;
+}
+.connect-us h2 {
+    margin: 0 100px 30px;
+    padding: 6px 6px;
+    border-radius: 6px;
+    color: #0014ff;
+    text-align: center;
+    font-weight: normal;
+    font-family: Vazir;
+    /* background-color: #00ff00;
+    box-shadow: inset 0px 0px 50px green; */
+    /* background-color: #5f1c62;
+    box-shadow: inset 0px 0px 50px #0014ff; */
+    border-top: 2px solid #0014ff;
+    border-bottom: 2px solid #0014ff;
+}
+.connect-us .user-box {
+    position: relative;
+}
+.connect-us .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.connect-us .user-box textarea {
+    min-height: 130px;
+    max-height: 130px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    color: #535353;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-family: Vazir;
+    resize: none;
+}
+.connect-us .user-box label {
+    position: absolute;
+    top:-6px;
+    right: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    font-family: Vazir;
+}
+.connect-us .user-box input:focus ~ label,
+.connect-us .user-box input:valid ~ label {
+    top: -22px;
+    left: 0;
+    color: #0014ff;
+    font-size: 12px;
+}
+.connect-us form a {
+    font-family: Vazir;
+    position: relative;
+    display: inline-block;
+    padding: 6px 40px 7px 40px;
+    color: #0014ff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    left: -50%;
+    transform: translate(50%, 0%);
+}
+.connect-us .submit:hover {
+    background-color: #5f1c62;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 50px #0014ff;
+}
+.connect-us a span {
+    position: absolute;
+    display: block;
+}
+
+.connect-us a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #0014ff);
+    animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+    50%,100% {
+        left: 100%;
+    }
+}
+
+.connect-us a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #0014ff);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+    50%,100% {
+        top: 100%;
+    }
+}
+
+.connect-us a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #0014ff);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+    50%,100% {
+        right: 100%;
+    }
+}
+
+.connect-us a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #0014ff);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,100% {
+        bottom: 100%;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .connect-us {
+        width: 330px;
+    }
+    .connect-us h2 {
+        margin: 0px 40px 30px;
+    }
+}
+/* end connect us section style */

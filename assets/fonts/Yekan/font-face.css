@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Yekan;
+    src: url('Yekan.eot');
+    src: url('Yekan.eot?#iefix') format('embedded-opentype'),
+        url('Yekan.woff') format('woff'),
+        url('Yekan.woff2') format('woff2'),
+        url('Yekan.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url('Yekan-Bold.eot');
+    src: url('Yekan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Yekan-Bold.woff') format('woff'),
+        url('Yekan-Bold.woff2') format('woff2'),
+        url('Yekan-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
