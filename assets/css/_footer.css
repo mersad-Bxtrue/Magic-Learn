@@ -2,7 +2,7 @@
 footer {
     background-color: rgb(6, 0, 77);
     height: auto;
-    top : 700px;
+    top: 700px;
     color: #ffffff;
 }
 
@@ -14,94 +14,112 @@ footer {
     margin-top: 40px;
     width: 100%;
 }
+
 .footer h3 {
     font-weight: normal;
 }
+
 .footer .footer-about-us h3 {
     right: 70px;
     font-size: 20px;
     top: -2px;
 }
-.footer .footer-about-us i {
-    font-size: 70px;
-    color: #99e435;
+
+.footer .footer-about-us svg {
     transform: rotate(345deg);
-    top: -30px;
-    
+    top: -10px;
 }
+
 .footer .footer-about-us p {
     font-weight: normal;
     color: #a2a2a2;
-    padding: 35px 10px 0px 10px;
+    padding: 50px 10px 0px;
     line-height: 30px;
 }
 
 .footer .footer-services {
     margin-top: 40px;
 }
+
 .footer .footer-services h3 {
     border-bottom: 2px solid #a2a2a2;
     padding-bottom: 15px;
 }
+
 .footer .footer-services ul li a::before {
     content: "\276f";
     vertical-align: -3px;
     padding-left: 6px;
 }
+
 .footer .footer-services ul li {
     margin-top: 10px;
 }
-.footer .footer-services ul li a{
+
+.footer .footer-services ul li a {
     color: #a2a2a2;
     transition: 0.4s ease;
 }
-.footer .footer-services ul li a:hover{
-    color: #ffae00d8;
+
+.footer .footer-services ul li a:hover {
+    color: #ffa500;
     padding-right: 15px;
     font-size: 18px;
-    cursor: context-menu;
+    cursor: pointer;
 }
 
 .footer .footer-contact-us {
     margin-top: 40px;
 }
+
 .footer .footer-contact-us h3 {
     border-bottom: 2px solid #a2a2a2;
     padding-bottom: 15px;
 }
+
+.footer .footer-contact-us ul {
+    margin-top: 10px;
+}
+
 .footer .footer-contact-us ul li {
     transition: 0.4s ease;
     color: #a2a2a2;
     cursor: context-menu;
 }
-.footer .footer-contact-us ul i {
-    margin-top: 15px;
-    padding-left: 10px;
-}
+
 .footer .footer-contact-us ul span {
-    vertical-align: 7px;
+    vertical-align: super;
+    margin-right: 5px;
 }
+
 .footer .footer-contact-us ul li:hover {
-    color: #ffae00d8;
+    color: #ffa500;
 }
-.footer .footer-contact-us .s-media {
-    font-size: 26px;
-    margin-top: 15px;
-    padding-left: 20px;
-    color: #a2a2a2;
-    transition: 0.4 ease;
+
+.footer .footer-contact-us ul li:hover svg {
+    fill: #ffa500 !important;
 }
-.footer .footer-contact-us .s-media:hover {
-    color: #ffae00d8;
+
+.footer .footer-contact-us div {
+    margin-top: 20px;
+}
+
+.footer .footer-contact-us div a svg:hover {
+    fill: #ffa500 !important;
 }
 
 footer .copy-right {
     display: block;
-    border-top: 1px solid orange;
+    border-top: 1px solid #ffa500;
     padding: 10px 0px;
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
     color: #a2a2a2;
 }
+
+footer .copy-right a {
+    color: #ffa500;
+}
+
 /* end footer section style */

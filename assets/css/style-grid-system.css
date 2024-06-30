@@ -181,6 +181,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+    #xs-hidden {
+        display: none;
+    }
+
     .col-xs-1 {
         width: 8.33%;
     }
@@ -377,7 +381,7 @@ a {
 }
 
 @media only screen and (max-width: 870px) {
-    #xs-hidden {
+    #md-hidden {
         display: none;
     }
 }

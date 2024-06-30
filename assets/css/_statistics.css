@@ -6,8 +6,6 @@
 }
 
 .statistics .stt-background {
-    /* background: rgb(255,138,0);
-    background: linear-gradient(90deg, rgba(255,138,0,0.7) 0%, rgba(255,232,0,0.7) 100%); */
     width: 100%;
     background-color: #ffba00b3;
     height: auto;
@@ -23,10 +21,11 @@
     border-radius: 10px;
     width: auto;
     height: 160px;
-    margin: 5px 20px;
-    transition:all 0.2s ease-in-out;
+    margin: 5px 10px;
+    transition: all 0.2s ease-in-out;
 
 }
+
 .statistics .stt-card:hover {
     background-color: #ffffff91;
     transform: scale(1.05);
@@ -38,8 +37,8 @@
     color: #474747;
     font-weight: 200;
     text-align: center;
-    font-size: 80px;
 }
+
 .statistics .stt-card span:nth-child(2) {
     display: block;
     text-align: center;
@@ -47,10 +46,18 @@
     font-weight: bold;
     color: #2a26ff;
 }
+
 .statistics .stt-card a span:nth-child(3) {
     display: block;
     text-align: center;
     margin-top: 10px;
     color: #353535;
 }
+
+@media screen and (max-width:480px) {
+    .statistics .stt-card {
+        margin: 5px 0px;
+    }
+}
+
 /* end statistics section style */

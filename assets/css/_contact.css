@@ -2,38 +2,38 @@
 .container-fluid-custom {
     background-color: rgb(6, 0, 77);
     color: #fff;
-    height: 40px;
 }
 
 .container-fluid-custom .contact {
-    margin-top: 5px;
+    margin: 10px 0;
 }
 
 .container-fluid-custom .contact span {
-    color: orange;
-    vertical-align: -9px;
+    color: #efefef;
+    vertical-align: middle;
     padding-left: 15px;
 }
 
-.container-fluid-custom .contact span span {
-    color: #fff;
-    margin-left: -34px;
-    vertical-align: 6px;
+.container-fluid-custom .contact span svg {
+    vertical-align: top;
 }
 
 .container-fluid-custom .social-media {
+    margin: 10px 0;
     direction: ltr;
 }
 
-.container-fluid-custom .social-media a i {
-    color: #ffffff;
-    font-size: 24px;
-    margin-right: 10px;
-    vertical-align: -12px;
+.container-fluid-custom .social-media a {
+    padding-right: 5px;
 }
 
-.container-fluid-custom .social-media a i:hover {
-    color: orange;
-    transition: 0.5s;
+.container-fluid-custom .social-media a svg {
+    vertical-align: middle;
+    transition: 0.1s;
 }
+
+.container-fluid-custom .social-media a:hover svg {
+    fill: #ffa500 !important;
+}
+
 /* end contact section styles */

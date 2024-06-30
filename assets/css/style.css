@@ -11,20 +11,10 @@
 @import url(_footer.css);
 
 @font-face {
-    font-family: Yekan;
-    src: url('../fonts/Yekan/Yekan.eot');
-    src: url('../fonts/Yekan/Yekan.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Yekan/Yekan.woff') format('woff'),
-        url('../fonts/Yekan/Yekan.woff2') format('woff2'),
-        url('../fonts/Yekan/Yekan.ttf') format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
     font-family: Vazir;
-    src: url(../fonts/Vazir-Medium.eot) format(eot);
-    src: url(../fonts/Vazir-Medium.woff) format(woff);
-    src: url(../fonts/Vazir-Medium.woff2) format(woff2);
+    src: url(../fonts/Vazir-Regular.eot) format(eot);
+    src: url(../fonts/Vazir-Regular.woff) format(woff);
+    src: url(../fonts/Vazir-Regular.woff2) format(woff2);
 }
 
 *,

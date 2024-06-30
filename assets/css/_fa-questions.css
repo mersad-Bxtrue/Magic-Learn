@@ -4,10 +4,12 @@
     text-align: center;
     margin-bottom: 50px;
 }
+
 .section5-title span {
     font-size: 18px;
     font-weight: 400;
 }
+
 .section5-title span::before {
     content: "";
     width: 60%;
@@ -18,6 +20,7 @@
     top: 15px;
     right: -72px;
 }
+
 .section5-title span::after {
     content: "";
     width: 60%;
@@ -34,6 +37,7 @@
     min-height: 500px;
     opacity: 0.7;
 }
+
 .fa-questions .right-side-faq {
     background-color: #ffda00;
     margin: 40px 5px;
@@ -41,12 +45,15 @@
     box-shadow: 0px 0px 14px #9b9b9b;
     border-radius: 10px;
 }
+
 .fa-questions .right-side-faq li {
     margin-bottom: 37px;
 }
+
 .fa-questions .right-side-faq h5 {
     font-family: Vazir;
 }
+
 .fa-questions .right-side-faq h5 i {
     float: right;
     padding-left: 8px;
@@ -54,6 +61,7 @@
     color: blue;
     margin-top: -3px;
 }
+
 .fa-questions .right-side-faq p {
     margin-top: 5px;
     margin-right: 37px;
@@ -64,16 +72,19 @@
 .fa-questions .left-side-faq {
     margin: 0px 5px;
 }
+
 .fa-questions .left-side-faq .tabs {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 14px #9b9b9b;
     margin: 40px 0px;
 }
+
 .fa-questions .left-side-faq .tab {
     color: #ffffff;
     overflow: hidden;
 }
+
 .fa-questions .left-side-faq .tab-lable {
     padding: 16px;
     background-color: blue;
@@ -82,10 +93,12 @@
     display: block;
     transition: 0.2s ease-in-out;
 }
+
 .fa-questions .left-side-faq .tab-lable:hover {
     background-color: #ffc300;
     transition: 0.2s;
 }
+
 .fa-questions .left-side-faq .tab-lable::after {
     content: "\276f";
     text-align: center;
@@ -93,37 +106,55 @@
     float: left;
     padding: 2px 0 0 0;
 }
+
 .fa-questions .left-side-faq .tab-content {
     color: #2a2a2a;
     height: 0px;
     transition: 0.4s ease;
     padding: 0px 16px;
 }
-.fa-questions .left-side-faq input:checked ~ .tab-content {
+
+.fa-questions .left-side-faq input:checked~.tab-content {
     height: 145px;
     padding: 10px 16px;
     overflow-y: scroll;
     line-height: 26px;
 }
+
 .fa-questions .left-side-faq input {
     display: none;
 }
-.fa-questions .left-side-faq input:checked + .tab-lable::after {
+
+.fa-questions .left-side-faq input:checked+.tab-lable::after {
     transform: rotate(-90deg);
+}
+
+@media screen and (max-width:600px) {
+    .fa-questions .left-side-faq .tab-lable {
+        font-size: 14px;
+    }
+
+    .fa-questions .right-side-faq p {
+        font-size: 14px;
+    }
 }
 
 ::-webkit-scrollbar {
     width: 13px;
 }
+
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
-    background: #efcc00; 
+    background: #efcc00;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #d3b300; 
+    background: #d3b300;
 }
+
 /* start FA-Questions section style */

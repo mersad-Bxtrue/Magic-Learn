@@ -2,14 +2,11 @@
 .nav {
     background-color: #efefef;
     overflow: hidden;
-    /* position: sticky;
-    top: 0px;
-    z-index: 999; */
 }
 
-.nav a{
-    color: rgb(48, 48, 48);
-    padding: 12px 16px;
+.nav a {
+    color: #303030;
+    padding: 12px 14px;
     text-align: center;
     font-size: 18px;
     float: right;
@@ -17,8 +14,8 @@
 }
 
 .nav a:hover {
-    color: #ff9400;
-    transition: 0.2s;
+    color: #ffa500;
+    transition: 0.1s;
 }
 
 .nav a.bars-icon {
@@ -26,30 +23,38 @@
     padding-left: 0px;
     margin-top: 3px;
 }
+
+.nav a.bars-icon svg:hover {
+    fill: #ffa500 !important;
+}
+
 .nav .brand-logo {
-    /* color: #99e435; */
-    color: orange;
-    font-size: 36px;
-    transform: rotate(345deg);
+    color: #ffa500;
     margin-top: -6px;
     margin-left: -8px;
 }
 
-.nav a:first-child {
-    padding-right: 0px;
-    margin-top: 3px;
+.nav .logo-parent {
+    padding-left: 0px;
+    vertical-align: sub;
+    transform: scaleX(-1);
 }
 
 .nav form {
-    display: inline;
+    display: inline-block;
+    width: 270px;
+    margin: 10px;
+    padding: 4px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 
+
 .nav-search {
-    margin: 12px 16px 10px 16px;
-    padding: 3px 10px;
-    width: 280px;
+    width: 230px;
+    padding-right: 10px;
     border: 0;
-    border-radius: 10px;
+    background-color: transparent;
 }
 
 .nav-search:focus {
@@ -58,39 +63,31 @@
 
 .nav button {
     border: none;
-    color: #ff9400;
-    left: 25px;
-    top: 1px;
+    color: #ffa500;
     background-color: transparent;
     cursor: pointer;
 }
 
-.nav-account {
-    display: inline;
-    background-color: #ffffff;
-    width: 135px;
-    height: 30px;
-    float: left;
-    justify-content: space-between;
-    display: flex;
-    margin-top: 12px;
-    border-radius: 10px;
+.nav button:hover {
+    opacity: 0.6;
 }
 
-.nav-account a.log-in {
-    text-align: center;
-    padding: 0;
-    top: -4px;
-    right: 10px;
+.nav-account {
+    float: left;
 }
-.nav-account span {
-    right: 55px;
-    top: 4px;
+
+.nav-account a:hover {
+    background-color: #ffa6003d;
+    color: #303030;
 }
-.nav-account a.sign-in {
-    text-align: center;
-    padding: 0;
-    left: 10px;
+
+.nav-account a {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin: 10px 0;
+    height: auto;
+    font-size: 16px;
 }
 
 .nav .user-account {
@@ -98,10 +95,15 @@
     display: none;
 }
 
+.nav .user-account svg:hover {
+    fill: #ffa500 !important;
+}
+
 @media screen and (max-width:870px) {
-    .nav a:not(:first-child , :last-child) {
+    .nav a:not(:first-child, :last-child) {
         display: none;
     }
+
     .nav a.bars-icon {
         display: block;
         float: left;
@@ -132,20 +134,32 @@
     .nav.responsive .user-account {
         display: none;
     }
-    .nav.responsive form{
+
+    .nav.responsive form {
         display: none;
     }
+
     .nav.responsive a:first-child {
         display: none;
     }
+
     .nav.responsive .bars-icon {
         padding-left: 8px;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
     .nav-search {
         width: 180px;
+    }
+
+    .search-form {
+        width: 0 !important;
+        background-color: transparent;
+    }
+
+    .search-form input {
+        display: none;
     }
 }
 
@@ -153,11 +167,11 @@
     .nav .user-account {
         display: block;
         float: left;
-        margin-top: 3px;
-
     }
+
     .nav .nav-account {
         display: none;
     }
 }
+
 /* end header navbar section styles */
