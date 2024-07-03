@@ -1,37 +1,4 @@
 /* start connect us section style */
-.section6-title {
-    margin-top: 80px;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.section6-title span {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.section6-title span::before {
-    content: "";
-    width: 50%;
-    height: 3px;
-    background-color: #ffe000;
-    display: inline;
-    position: absolute;
-    top: 15px;
-    right: -84px;
-}
-
-.section6-title span::after {
-    content: "";
-    width: 50%;
-    height: 3px;
-    background-color: #ffe000;
-    display: inline;
-    position: absolute;
-    top: 15px;
-    right: 162px;
-}
-
 .connect-us {
     width: 450px;
     padding: 40px;

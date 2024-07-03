@@ -21,3 +21,35 @@
 body {
     font-family: Vazir;
 }
+
+.section-title {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.section-header_before {
+    width: 50px;
+    height: 3px;
+    background-color: #ffe000;
+}
+
+.section-header_title {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.section-header_after {
+    width: 50px;
+    height: 3px;
+    background-color: #ffe000;
+}
