@@ -8,6 +8,7 @@ It is interesting to know that for this project, I have created my own style gri
 <img src='./assets/img/Demo.jpg' alt='Magiclearn preview' >
 
 ✅ Responsive Demo :
+
 <img src='./assets/img/Resposive-Demo.jpg' alt='Magiclearn Responsive preview' >
 
 ## How ro use
