@@ -17,8 +17,7 @@
     src: url(../fonts/Vazir-Regular.woff2) format(woff2);
 }
 
-*,
-body {
+*,body {
     font-family: Vazir;
 }
 
